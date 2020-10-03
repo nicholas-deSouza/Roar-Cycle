@@ -1,0 +1,244 @@
+html{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+}
+
+body{
+    /* background-color: #FC5E55; */
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    width:100vw;
+    /* height:100vh; */
+    margin:0 auto;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    /* background-color:   #FC5E55; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* puts them side by side */
+    display: flex;               
+    /* puts equal space between them */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+main{
+    
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 20px;
+}
+
+.cards{
+    
+    /* min-height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+    
+}
+
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size:cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+
+}
+
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size:cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+
+.card3{
+    background-image: url(images/image-background-card3.jpg);
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+
+.card1, .card2, .card3{
+    padding: 15px 20px 15px 20px;
+    box-sizing:border-box;
+}
+
+.herobox1{
+    /* background-color: grey; */
+    width: 50%;
+    flex: 2;
+    padding-right: 100px;
+
+    
+}
+
+.herobox2{
+    /* background-color: indianred; */
+    width:50%;
+    flex: 1;
+}
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display' , serif;
+    margin-bottom: 0.4rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display' , serif;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+
+.cards i{
+    font-size: 100px;
+    margin-top: 15px;
+}
+
+.mybutton{
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display:inline-block;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+}
+
+.mybutton:hover{
+    background-color: rgb(108, 233, 108);
+    transition-duration: 1s;
+}
+
+nav a.mybutton {
+    margin-left: 30px;
+}
+
+.navbutton{
+    font-family: 'Playfair Display', serif;
+    /* background-color: aquamarine; */
+    padding: 11px 25px;
+    border: 1px solid white;
+    display: inline-block;
+    position: relative;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+/* .tbox :last-child{
+    font-size: .8rem;
+} */
+
+.tbox  p:last-of-type{
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+
+}
+
+.dropdown .navbutton{
+    width: 120px;
+    background-color: white;
+    
+
+}
+
+.dropdown .navbutton a{
+    color: #FA4083;
+
+}
+
+.inputwrapper{
+    margin-bottom: 23px;
+}
+
+input[type=text], input[type=email], textarea{
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a{
+    margin-right: 20px;
+}
+
+form{
+    margin: 40px 0px;
+}
